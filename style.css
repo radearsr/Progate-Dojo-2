@@ -1,0 +1,163 @@
+a {
+	text-decoration: none;
+}
+/*Induk Layout*/
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/* CSS Untuk Header*/
+header{
+	height: 65px;
+	background-color: rgba(34, 49, 52, 0.9);
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+.logo{
+	width: 124px;
+	margin-top: 20px
+}
+.header-left{
+	float: left;
+}
+.header-right{
+	float: right;
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: all 0.5s;
+}
+.header-right:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a{
+	color: white;
+	display: block;
+	line-height: 65px;
+	padding: 0 25px;
+}
+/* Akhir CSS Untuk Header*/
+
+/*CSS Untuk Bagian Top-Wrapper*/
+.top-wrapper{
+	text-align: center;
+	background-image: url("https://prog-8.com/images/html/advanced/top_en.png");
+	background-size: cover;
+	padding: 180px 0 100px 0;
+	color: white;
+}
+.top-wrapper h1{
+	letter-spacing: 5px;
+	font-size: 45px;
+	margin-bottom: 10px;
+	opacity:0.7;
+}
+.top-wrapper p{
+	margin-bottom: 3px;
+	opacity:0.7;
+}
+.btn-wrapper{
+	margin: 20px 0;
+}
+.btn-wrapper a{
+	color: white;
+	display: inline-block;
+}
+.btn-wrapper p{
+	margin: 10px 0;
+}
+.btn{
+	padding: 12px 24px;
+	border-radius: 4px;
+	opacity:0.8;
+}
+.btn:hover{
+	opacity: 1;
+}
+.signup{
+	background-color: #239B76;
+}
+.facebook{
+	background-color: #3B5998;
+}
+.twitter{
+	background-color: #55ACEE;
+}
+.fa{
+	margin-right: 5px;
+}
+/*Akhir Css Top Wrapper*/
+
+/*CSS Untuk Lessson Wrapper*/
+.lesson-wrapper{
+	height: 580px;
+	background-color: #F7F7F7;
+	text-align: center;
+}
+.heading{
+	color: #5F5D60;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.heading h2{
+	font-weight: normal;
+}
+.lesson{
+	float: left;
+	width: 25%;
+}
+.lesson-icon{
+	position: relative;
+}
+.lesson-icon p{
+	position: absolute;
+	top: 90px;
+	width: 100%;
+	color: white;
+}
+.txt-contents{
+	color:#B3AEB5;
+	width: 80%;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 15px;
+}
+/*AkhirCSS Untuk Lessson Wrapper*/
+
+/*CSS Untuk Message Wrapper */
+.message-wrapper{
+	text-align: center;
+	padding-bottom: 80px;
+
+}
+.heading h3{
+  padding-bottom:30px;
+}
+.message{
+	padding: 15px 40px;
+	box-shadow: 0 7px #1A7940;
+	background-color:#5DCA88; 
+	color: white;
+}
+.message:active{
+	box-shadow: none;
+	position: relative;
+	top: 7px
+}
+/*Akhir CSS Untuk Message Wrapper */
+
+/*CSS Untuk Footer*/
+footer{
+	border-top: 1px solid #EEEEEE;
+}
+footer img{
+	width: 124px;
+	margin-top: 30px
+}
+footer p{
+	color: #B3AEB5;
+	font-size: 12px;
+}
+/*Akhir CSS Untuk Footer*/
